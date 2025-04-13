@@ -1,0 +1,52 @@
+{
+  "teclados": [
+    {
+      "id": "0",
+      "modelo": "MU01 Mountain Seclusion",
+      "switch": "Akko V3 Piano Pro Switch (Linear)",
+      "precio": "119.99"
+    },
+    {
+      "id": "1",
+      "modelo": "MU01 Autumn",
+      "switch": "Linear TTC Demon Switch (with LED condenser)",
+      "precio": "119.99"
+    },
+    {
+      "id": "2",
+      "modelo": "Gudetama 5108 SE",
+      "switch": "Linear TTC Demon Switch (With Condenser)",
+      "precio": "129.99"
+    },
+    {
+      "id": "3",
+      "modelo": "MOD007v3 HE Year of Dragon",
+      "switch": "Disclaimer: the keyboard does NOT support mechanical switches. However, you can purchase the PCBA separately that supports 5-pin mechanical switches.",
+      "precio": "179.99"
+    },
+    {
+      "id": "4",
+      "modelo": "Horizon 5075B Plus SP",
+      "switch": "Akko V3 Cream Yellow Pro",
+      "precio": "89.99"
+    },
+    {
+      "id": "5",
+      "modelo": "Monet’s Pond 5087S QMK",
+      "switch": "Akko V3 Cream Yellow switches",
+      "precio": "84.99"
+    },
+    {
+      "id": "6",
+      "modelo": "Mint 5087S SP QMK",
+      "switch": "Cherry MX Silent Black",
+      "precio": "79.99"
+    },
+    {
+      "id": "7",
+      "modelo": "MOD 007B PC Shine-Through",
+      "switch": "Kailh Ice Cream Pink",
+      "precio": "109.99"
+    }
+  ]
+}

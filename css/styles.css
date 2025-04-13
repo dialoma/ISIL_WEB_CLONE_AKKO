@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --blanco: #ffff;
+  --morado: #8071b3;
+  --morado_hover: #63568b;
+  --gris: #515151;
+  --gris-claro: #5f5f5f;
+  --gris-mas-claro: #b4b4b4;
+}
+
+.btntmn {
+  font-family: "Poppins" !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer svg {
+  padding-left: 7px;
+}
+
+.contact-us {
+  padding-top: 6rem !important;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.linea-contact {
+  display: inline-block;
+  border-bottom: 3px solid var(--morado_hover);
+  width: 6rem;
+}
+
+.push-section {
+  padding-left: 4rem !important;
+  padding-top: 6rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.contact-us h4 {
+  color: var(--morado) !important;
+  letter-spacing: 0.19rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.footer-linea {
+  flex: auto;
+  text-align: center;
+  width: 65%;
+  border-top: 1px solid var(--gris-mas-claro);
+  margin: 0 auto;
+}
+
+.bottom-linea {
+  display: inline-block;
+  border-bottom: 1px solid var(--gris-mas-claro);
+  width: auto;
+}
+
+.footer-color {
+  background-color: var(--gris) !important;
+  color: var(--blanco) !important;
+}
+
+.form-bc {
+  border-color: var(--gris-claro) !important;
+  background-color: var(--gris-claro) !important;
+}
+
+.form-bc::-webkit-input-placeholder {
+  color: var(--gris-mas-claro) !important;
+}
+
+.logo-nav {
+  width: 200px !important;
+  padding-right: 1rem;
+  padding: 0.25rem;
+}
+
+.bypass-color-nav {
+  border-color: var(--morado) !important;
+  color: var(--morado) !important;
+}
+
+.bypass-color-nav:hover {
+  background-color: var(--morado_hover) !important;
+  border-color: var(--morado_hover) !important;
+  color: var(--blanco) !important;
+}
+
+.bypass-color {
+  background-color: var(--morado) !important;
+  border-color: var(--morado) !important;
+  color: var(--blanco) !important;
+}
+
+.bypass-color:hover {
+  background-color: var(--morado_hover) !important;
+  border-color: var(--morado_hover) !important;
+}
+
+@media (min-width: 0px) and (max-width: 375px) {
+  .logo-nav {
+    width: 15%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 1024px) {
+  .logo-nav {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .logo-nav {
+    width: 30%;
+  }
+}
